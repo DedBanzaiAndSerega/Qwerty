@@ -106,7 +106,7 @@ namespace TestProgrammForBD
         private void button1_Click(object sender, EventArgs e)
         {
             
-            var result = MessageBox.Show("сохранить изменения в базе данных?", "Внимание",
+            var result = MessageBox.Show("сохранить изменения?", "Внимание",
                             MessageBoxButtons.YesNo,
                             MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
